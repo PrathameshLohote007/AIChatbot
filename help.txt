@@ -1,0 +1,29 @@
+Requirements:
+
+python 3.7
+
+libraries:
+    nltk
+    tensorflow
+    numpy
+    python-telegram-bot
+    pyttsx3
+    speech_recognition
+    spacy
+
+
+Note: If you get error like this -> No module name 'some_module' 
+        then install that module as -> pip install module_name
+
+
+Before doing anything Download telegram for windows/android
+
+->Steps to set up Telegram Bot
+
+	1. Search @BotFather on telegram
+	2. Type '/start' and hit enter
+	3. Type '/newbot' and hit enter
+	4. Set name for your bot
+	5. Set username for your bot (ex - somethingBot , consumerBot ).. it must end with 'Bot'
+	6. Copy the token and paste in 'tele.py' bot_id
+
